@@ -1,0 +1,23 @@
+.disabledList{
+    
+    pointer-events:none; 
+    opacity:0.6;        
+
+}
+
+html,body{
+    background-color: grey;
+    height: 100%;
+   
+    }
+    
+#todoList{
+    border: 10px solid black;
+    border-radius: 1rem;
+}
+#todoList :hover{
+    background: black;
+}
+#mainnavbar{
+    background-color: black;
+}

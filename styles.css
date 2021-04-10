@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(images/photo1.jpg);
+    background-size: cover;
+}
+.box{
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 75px;
+    background: white;
+    text-align: center;
+}
+.container{
+height: 120;
+align-content : center;
+width : 300px;
+    
+}
+
+.card{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 75px;
+    
+    text-align: center;
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color:white !important;
+}
+
+
+
+.card-header h3{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+
+.input-group-prepend span{
+width: 50px;
+background-color: white;
+color: rgb(255, 255, 255);
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.login_btn{
+color: rgb(255, 255, 255);
+background-color: grey;
+width: 100px;
+}
+
+.login_btn:hover{
+color: grey;
+background-color:grey;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+:root{
+    --themeColor:linear-gradient(to right, grey,grey);
+}
+
+  
+  input[type='text'] {
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0rem;
+    width: 20rem;
+    display: block;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid grey;
+  }
+  input[type='password'] {
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0rem;
+    width: 20rem;
+    display: block;
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid grey;
+  }
+  
+  
+  .form__btn {
+    background:var(--themeColor);
+    color: black;
+    outline: none;
+    border: none;
+    padding: 0.5rem 0.7rem;
+    width: 20rem;
+    margin: 1rem auto;
+    border-radius: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    font-family: cursive;
+  }
+  .form--message-text {
+    width: 25rem;
+    background: #fff;
+    color: grey;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(51, 51, 51, 0.2);
+    animation: fadeIn 0.8s;
+    border-radius: 1rem;
+  }
+  
+  .form-active {
+    z-index: 1000;
+    display: block;
+  }
+  .form-active-animate {
+    animation: moveRight 1s;
+  }
+  .form-inactive {
+    display: block;
+    animation: moveLeft 1s;
+  }
+
+  .errorMsg{
+    position: absolute;
+    top:-100%;
+    left:50%;
+    width:40%;
+    padding: 0.5% 5%;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border-radius: 20px;
+    z-index: 2000;
+    text-align: right !important;
+}
+.errorMsg::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgba(0, 0, 0, 0.753);
+    position: absolute;
+    bottom:-54%;
+    left:67%;
+    z-index: 2000;
+}
+.errorMsg.hidden{
+    display: none;
+}
+
+canvas{
+  position: absolute;
+  height:100%; 
+  width: 100%;
+  top:0;
+  left:0;
+  object-fit: cover;
+  background: transparent;
+}
